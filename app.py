@@ -11,9 +11,9 @@ if __name__ == '__main__':
 
 @app.route('/welcome')
 def welcome():
-    return 'Welcome to My Flask App'
+    return 'Welcome to My Flask App :)'
 
-@app.route('/greet/<name>')
+@app.route('/greet/<reemw>')
 def greet(name):
-    return f'Hello, {name}!'
+    return f'Hello, This is Reem!'
 
